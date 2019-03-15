@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet'>
+
+  <title>mapbox</title>
+</head>
+<body>
+  <div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2h1c2h0YXJpIiwiYSI6ImNqc3dtdTNmMzBqZGE0NG4ycjM4OHIwZHoifQ.PZmk1aN5a3r-Kf1yFLdvZQ';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});
+</script>
+
+</body>
+</html>
+
+
+
